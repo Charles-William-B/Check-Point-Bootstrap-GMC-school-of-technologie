@@ -91,6 +91,11 @@
 
   .section1{
     .container-fluid{
+      padding-top: 25px;
+
+      h1{
+        text-align: center;
+      }
 
       .row{
         display: flex;
@@ -154,11 +159,15 @@
     /* section2 */
 
     .section2{
-      padding-top: 50px;
       padding-bottom: 50px;
       background-color: rgb(243,243,242);
 
       .container{
+
+        h1{
+          text-align: center;
+          padding-bottom: 50px;
+        }
 
         .row{
 
@@ -184,8 +193,15 @@
 
     .section3{
 
+
       .container-fluid{
+
         padding-bottom: 50px;
+        background-color: rgb(233, 233, 228);
+        h1{
+          text-align: center;
+          margin-bottom: 50px;
+        }
       }
 
       .row{
@@ -225,9 +241,13 @@
           }
           li{
             list-style: none;
+
+            img{
+              height: 20px;
+            }
         }
         a{
-          color: black;
+          color: white;
         }
 
       }
@@ -235,8 +255,10 @@
       .mentionlegale{
 
         text-align: center;
-        padding: 50px;
-        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        font-weight: 500;
+        font-size: 12px;
       }
     }
     
